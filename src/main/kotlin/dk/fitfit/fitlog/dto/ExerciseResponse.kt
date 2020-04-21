@@ -9,6 +9,6 @@ data class ExerciseResponse(
         val videos: List<VideoResponse>?,
         val pictures: List<PictureResponse>?,
         val id: Long,
-        val created: LocalDateTime,
-        val updated: LocalDateTime
+        val created: LocalDateTime?,
+        val updated: LocalDateTime?
 )

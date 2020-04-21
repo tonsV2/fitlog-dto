@@ -8,6 +8,6 @@ data class RoundExerciseResponse(
     val maxTime: Int,
     val priority: Int,
     val id: Long,
-    val created: LocalDateTime,
-    val updated: LocalDateTime
+    val created: LocalDateTime?,
+    val updated: LocalDateTime?
 )
