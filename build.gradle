@@ -16,7 +16,7 @@ bintray {
         userOrg = 'tons'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/tonsV2/fitlog-dto.git'
-        version '0.2.0'
+        version '0.3.0'
     }
 }
 
